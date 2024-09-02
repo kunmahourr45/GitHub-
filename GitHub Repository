@@ -1,0 +1,107 @@
+Here is an example of HTML, CSS, and JavaScript code to create a basic landing page:
+
+*HTML:*
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Landing Page</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Features</a></li>
+				<li><a href="#">Pricing</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="hero">
+			<h1>Welcome to Our Landing Page</h1>
+			<p>This is a sample landing page created from scratch.</p>
+			<button>Sign Up</button>
+		</section>
+		<section class="features">
+			<h2>Features</h2>
+			<ul>
+				<li>Feature 1</li>
+				<li>Feature 2</li>
+				<li>Feature 3</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Landing Page</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
+```
+
+*CSS (in styles.css file):*
+```
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2em;
+}
+.hero {
+	background-image: linear-gradient(to bottom, #333, #555);
+	color: #fff;
+	padding: 2em;
+	text-align: center;
+}
+.features {
+	background-color: #f7f7f7;
+	padding: 2em;
+}
+button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 1em 2em;
+	cursor: pointer;
+}
+```
+
+*JavaScript (in script.js file):*
+```
+// Add event listener to button
+document.querySelector('button').addEventListener('click', function() {
+	alert('Sign up button clicked!');
+});
+```
+
+This code creates a basic landing page with a navigation menu, hero section, features section, and footer. The CSS adds basic styling, and the JavaScript adds an event listener to the sign-up button.
+
+Note: This is just a starting point, and you'll likely want to add more functionality, styling, and content to create a stunning landing page.
